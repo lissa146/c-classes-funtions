@@ -1,0 +1,70 @@
+
+#include<iostream>
+using namespace std;
+
+void numnum();
+
+int main() {
+	numnum();
+}
+
+void numnum() {
+	float x;
+	float y;
+	cout << " a couple numbers if you please";
+	cin >> x;
+	cin >> y;
+	cout << endl << x << " " << y;
+	cout << " division of " << x << " by " << y << " : " << x / y << endl;
+	
+	cout << " In order: ";
+	if (x > y) {
+		cout << y << " " << x << endl;
+	}
+	else {
+		cout << x << " " << y << endl;
+	}
+	if (x == 13 || y == 13) {
+		cout << " Bad Luck! " << endl;
+	}
+	
+	if (static_cast<int>(x) % 2 != 0 || static_cast<int>(y) % 2 != 0) {
+		cout << "odd number";
+	}
+
+
+}#include<iostream>
+using namespace std;
+
+void numnum();
+
+int main() {
+	numnum();
+}
+
+void numnum() {
+	float x;
+	float y;
+	cout << " a couple numbers if you please";
+	cin >> x;
+	cin >> y;
+	cout << endl << x << " " << y;
+	cout << " division of " << x << " by " << y << " : " << x / y << endl;
+	
+	cout << " In order: ";
+	if (x > y) {
+		cout << y << " " << x << endl;
+	}
+	else {
+		cout << x << " " << y << endl;
+	}
+	if (x == 13 || y == 13) {
+		cout << " Bad Luck! " << endl;
+	}
+	
+	if (static_cast<int>(x) % 2 != 0 || static_cast<int>(y) % 2 != 0) {
+		cout << "odd number";
+	}
+
+
+}
