@@ -1,0 +1,36 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main() {
+
+	struct student {
+		int ID;
+		string nickname;
+		bool isAnnoying = true;
+		string gender;
+	};
+	
+	student Natalie;
+	Natalie.ID = 12345;
+	Natalie.nickname = "natabux";
+	Natalie.gender = "female";
+
+	student Gus = { -9999, "guh", false, "male"};
+
+	cout << "Natalie Id:" << Natalie.ID << ", nickname:" << Natalie.nickname << ", gender:" << Natalie.gender << endl;
+	cout << "Gus Id:" << Gus.ID << ", nickname:" << Gus.nickname << ", gender:" << Gus.gender << endl;
+
+
+	struct car {
+		int doors;
+		int wheels;
+		string check_engine_light;
+	};
+
+	car civic;
+	civic.doors = 3;
+	civic.wheels = 4;
+	civic.check_engine_light = "ON";
+
+	cout << "civic door count: " << civic.doors << ", civic wheels count: " << civic.wheels << ", check engine light is " << civic.check_engine_light << endl;
+}
